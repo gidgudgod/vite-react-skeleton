@@ -1,3 +1,35 @@
 .App {
   width: 100vw;
 }
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 20px;
+
+  background-color: #665af5;
+  color: white;
+}
+
+nav > img {
+  max-width: 4em;
+  height: 1.5em;
+}
+
+nav > h1 {
+  font-size: 20px;
+}
+
+.travel-list {
+  margin: 0 auto;
+}
+
+hr {
+  border-top: 1px solid rgba(212, 212, 212, 0.189);
+  width: 500px;
+}
