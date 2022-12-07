@@ -1,4 +1,5 @@
 import { useMemo, useReducer, useState } from 'react';
+import Form from '../components/Form';
 import './App.css';
 
 function UseCallback() {
@@ -102,9 +103,10 @@ function NameList() {
 function App() {
   return (
     <div className="App">
-      <UserForm />
+      {/* <UserForm />
       <NameList />
-      <UseMemo />
+      <UseMemo /> */}
+      <Form />
     </div>
   );
 }
