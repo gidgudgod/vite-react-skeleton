@@ -1,5 +1,6 @@
 import { useMemo, useReducer, useState } from 'react';
 import Form from '../components/Form';
+import FormHook from '../components/FormHook';
 import './App.css';
 
 function UseCallback() {
@@ -107,6 +108,7 @@ function App() {
       <NameList />
       <UseMemo /> */}
       <Form />
+      <FormHook/>
     </div>
   );
 }
